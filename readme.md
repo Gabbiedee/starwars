@@ -1,2 +1,2 @@
 ## StarWars Film project
-![StarWars Project](images/preview.png)
+![StarWars Project](images/preview1.png)
