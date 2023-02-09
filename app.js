@@ -12,9 +12,9 @@ const images = [
 const movieCard = (result, imgSrc)=>{
     const {title, episode_id, release_date, director} = result;
 return (
-    `<div class="col-md-4">
-    <div class="card" style="width: 18rem;">
-    <img src="${imgSrc}" class="card-img-top" alt="...">
+    `<div class="col-12 col-md-6 col-lg-4">
+    <div class="card" style="width: 100%;">
+    <img src="${imgSrc}" class="card-img-top" alt="StarWars">
     <div class="card-body ">
     <div>
          <h5>${title}
@@ -32,7 +32,7 @@ return (
 
 }
 
-const fetchpost= async () => {
+const fetchpost = async () => {
     const response = await fetch (endpoint);
     const data = await response.json();
 
